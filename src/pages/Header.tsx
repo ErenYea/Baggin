@@ -5,7 +5,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="navbar bg-base-300 ">
+    <div className="navbar bg-base-300 z-40 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,14 +26,14 @@ const Header = (props: Props) => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 z-50"
           >
             <li>
               <a>Item 1</a>
             </li>
             <li>
               <a>Parent</a>
-              <ul className="p-2">
+              <ul className="p-2 z-50">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -66,7 +66,7 @@ const Header = (props: Props) => {
           <li tabIndex={0}>
             <details>
               <summary>Parent</summary>
-              <ul className="p-2">
+              <ul className="p-2 z-50">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -82,7 +82,7 @@ const Header = (props: Props) => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Contact Us</a>
+        <a className="btn btn-primary">Contact Us</a>
       </div>
     </div>
   );

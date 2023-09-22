@@ -35,14 +35,14 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-32 right-0  text-white pl-1">
+        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
           <div className="flex w-full items-center">
             <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div>
             <div className="ml-4 text-2xl font-semibold text-white ">
               About Us
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-lg font-semibold tracking-wide text-white ">
             <div>
               A consulting firm specializing in business development and
               financing solutions for Africa focused companies. Founded in 2015,
@@ -63,7 +63,7 @@ const Slider = (props: Props) => {
               Our role
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:lg:xl:text-lg font-semibold tracking-wide text-white ">
             <div>
               We accompany your business in sourcing finance to expand in
               various African markets. Our goal is to have a bespoke approach in
@@ -89,14 +89,14 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-32 right-0  text-white pl-1">
+        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
           <div className="flex w-full items-center">
             <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div>
             <div className="ml-4 text-2xl font-semibold text-white ">
               About Us
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-lg font-semibold tracking-wide text-white ">
             <div>
               A consulting firm specializing in business development and
               financing solutions for Africa focused companies. Founded in 2015,
@@ -117,7 +117,7 @@ const Slider = (props: Props) => {
               Our role
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:lg:xl:text-lg font-semibold tracking-wide text-white ">
             <div>
               We accompany your business in sourcing finance to expand in
               various African markets. Our goal is to have a bespoke approach in
@@ -143,14 +143,14 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-32 right-0  text-white pl-1">
+        <div className="flex  flex-col items-center justify-start container w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
           <div className="flex w-full items-center">
             <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div>
             <div className="ml-4 text-2xl font-semibold text-white ">
               About Us
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-lg font-semibold tracking-wide text-white ">
             <div>
               A consulting firm specializing in business development and
               financing solutions for Africa focused companies. Founded in 2015,
@@ -171,7 +171,7 @@ const Slider = (props: Props) => {
               Our role
             </div>
           </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-10 text-lg md:text-lg font-semibold tracking-wide text-white ">
+          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:lg:xl:text-lg font-semibold tracking-wide text-white ">
             <div>
               We accompany your business in sourcing finance to expand in
               various African markets. Our goal is to have a bespoke approach in

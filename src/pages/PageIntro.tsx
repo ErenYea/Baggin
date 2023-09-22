@@ -5,7 +5,7 @@ type Props = {};
 
 const PageIntro = (props: Props) => {
   return (
-    <div className="w-full h-full mb-[-10px]">
+    <div className="w-full h-full mb-[-10px] z-20">
       <Slider />
     </div>
   );
