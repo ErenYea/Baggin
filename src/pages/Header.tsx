@@ -29,21 +29,79 @@ const Header = (props: Props) => {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-50"
           >
             <li>
-              <a>Item 1</a>
+              <a>News</a>
             </li>
             <li>
-              <a>Parent</a>
+              <a>Weddings & Events</a>
               <ul className="p-2 z-50">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>How we work</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Favorite Destinations</a>
+                </li>
+                <li>
+                  <a>Testinomonials</a>
+                </li>
+                <li>
+                  <a>Submit An Inquiry</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Catering </a>
+            </li>
+            <li>
+              <a>Galleries</a>
+              <ul className="p-2 z-50">
+                <li>
+                  <a>All Galleries</a>
+                </li>
+                <li>
+                  <a>Weddings</a>
+                </li>
+                <li>
+                  <a>Destinations</a>
+                </li>
+                <li>
+                  <a>Milestones</a>
+                </li>
+                <li>
+                  <a>Coporate</a>
+                </li>
+                <li>
+                  <a>Non-Profit</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a>Solutions</a>
+              <ul className="p-2 z-50">
+                <li>
+                  <a>Event Management</a>
+                </li>
+                <li>
+                  <a>Event Production</a>
+                </li>
+                <li>
+                  <a>Event Technology</a>
+                </li>
+                <li>
+                  <a>Event Creative</a>
+                </li>
+                <li>
+                  <a>Coporate</a>
+                </li>
+                <li>
+                  <a>Event Strategy</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a>Hospitality </a>
+            </li>
+            <li>
+              <a>Vendor Submission </a>
             </li>
           </ul>
         </div>
@@ -61,23 +119,82 @@ const Header = (props: Props) => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>News</a>
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>Parent</summary>
+              <summary>Weddings & Events</summary>
               <ul className="p-2 z-50">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>How we work</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Favorite Destinations</a>
+                </li>
+                <li>
+                  <a>Testimonials</a>
+                </li>
+                <li>
+                  <a>Submit An Inquiry</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Catering</a>
+          </li>
+          <li tabIndex={1}>
+            <details>
+              <summary>Galleries</summary>
+              <ul className="p-2 z-50">
+                <li>
+                  <a>All Galleries</a>
+                </li>
+                <li>
+                  <a>Weddings</a>
+                </li>
+                <li>
+                  <a>Destinations</a>
+                </li>
+                <li>
+                  <a>Milestones</a>
+                </li>
+                <li>
+                  <a>Coporate</a>
+                </li>
+                <li>
+                  <a>Non-Profit</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li tabIndex={2}>
+            <details>
+              <summary>Solutions</summary>
+              <ul className="p-2 z-50">
+                <li>
+                  <a>Event Management</a>
+                </li>
+                <li>
+                  <a>Event Production</a>
+                </li>
+                <li>
+                  <a>Event Technology</a>
+                </li>
+                <li>
+                  <a>Event Creative</a>
+                </li>
+                <li>
+                  <a>Event Strategy</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <a>Hospitality</a>
+          </li>
+          <li>
+            <a>Vendor Submission</a>
           </li>
         </ul>
       </div>
