@@ -107,12 +107,12 @@ const Header = (props: Props) => {
         </div>
         <a className="ml-4 normal-case text-xl">
           <Image
-            src="/logo_2.png"
+            src="/logo_3.png"
             alt="logo"
-            width={100}
-            height={100}
-            style={{ scale: "150%" }}
-            className=" ml-2 cursor-pointer"
+            width={150}
+            height={150}
+            // style={{ scale: "150%" }}
+            className="  cursor-pointer"
           />
         </a>
       </div>
