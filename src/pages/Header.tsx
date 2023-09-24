@@ -5,7 +5,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="navbar  z-40 ">
+    <div className="navbar  z-40 h-[10%] ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -107,7 +107,7 @@ const Header = (props: Props) => {
         </div>
         <a className="ml-4 normal-case text-xl">
           <Image
-            src="/logo_3.png"
+            src="/logo_4.png"
             alt="logo"
             width={150}
             height={150}

@@ -35,20 +35,20 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-center container h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full items-center">
+        <div className="flex  flex-col items-center justify-center  h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
+          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
-            <div className="ml-4 text-2xl lg:xl:md:text-4xl font-semibold text-white ">
+            <div className="ml-4 text-2xl lg:xl:md:text-4xl font-semibold text-white text-center">
               Expert Event Solutions
             </div>
-          </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
-            <div>
-              Cutting-edge technology and innovative solutions that elevate your
-              events
-            </div>
+            <div className="flex flex-col w-4/5 items-center justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
+              <div>
+                Cutting-edge technology and innovative solutions that elevate
+                your events
+              </div>
 
-            {/* <div className="mt-2">Advisory Services</div> */}
+              {/* <div className="mt-2">Advisory Services</div> */}
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -65,17 +65,17 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-center container w-full h-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full items-center">
+        <div className="flex  flex-col items-center justify-center  w-full h-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
+          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
             <div className="ml-4 text-2xl font-semibold text-white lg:xl:md:text-4xl ">
               Nationwide Event Management Services
             </div>
-          </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
-            <div>Nationwide Event Management Services</div>
+            <div className="flex flex-col w-4/5 items-center justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
+              <div>Nationwide Event Management Services</div>
 
-            {/* <div className="mt-2">Advisory Services</div> */}
+              {/* <div className="mt-2">Advisory Services</div> */}
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -92,19 +92,19 @@ const Slider = (props: Props) => {
             {/* <div className="about-divider"></div> */}
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-center container h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full items-center">
+        <div className="flex  flex-col items-center justify-center  h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
+          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
             <div className="ml-4 text-2xl font-semibold text-white lg:xl:md:text-4xl">
               Maximize Your ROI with Endless Event Management
             </div>
-          </div>
-          <div className="flex flex-col w-4/5 items-start justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
-            <div>
-              Our team of experts will help you execute your best event yet
-            </div>
+            <div className="flex flex-col w-4/5 items-center justify-center mt-2 md:lg:xl:mt-10 text-sm md:xl:lg:text-3xl font-semibold tracking-wide text-white ">
+              <div>
+                Our team of experts will help you execute your best event yet
+              </div>
 
-            {/* <div className="mt-2">Advisory Services</div> */}
+              {/* <div className="mt-2">Advisory Services</div> */}
+            </div>
           </div>
         </div>
       </SwiperSlide>
