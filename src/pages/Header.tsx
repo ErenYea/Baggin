@@ -6,7 +6,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="navbar  z-40 h-[10%] ">
+    <div className="navbar  z-[100] h-[10%] ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -85,7 +85,7 @@ const Header = (props: Props) => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
+          <li className="">
             <Link href="/about">About Us</Link>
             {/* <a>About Us</a> */}
           </li>
