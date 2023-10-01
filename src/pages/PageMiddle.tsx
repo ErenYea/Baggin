@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import PageMiddleDiv from "@/components/PageMiddleDiv";
+
 type Props = {};
 
 const PageMiddle = (props: Props) => {

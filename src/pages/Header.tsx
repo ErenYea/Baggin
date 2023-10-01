@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -29,54 +30,20 @@ const Header = (props: Props) => {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-50"
           >
             <li>
-              <a>News</a>
+              <a>About Us</a>
             </li>
             <li>
-              <a>Weddings & Events</a>
-              <ul className="p-2 z-50">
-                <li>
-                  <a>How we work</a>
-                </li>
-                <li>
-                  <a>Favorite Destinations</a>
-                </li>
-                <li>
-                  <a>Testinomonials</a>
-                </li>
-                <li>
-                  <a>Submit An Inquiry</a>
-                </li>
-              </ul>
+              <a>Services</a>
             </li>
             <li>
-              <a>Catering </a>
+              <a>Make an Inquiry</a>
             </li>
             <li>
-              <a>Galleries</a>
-              <ul className="p-2 z-50">
-                <li>
-                  <a>All Galleries</a>
-                </li>
-                <li>
-                  <a>Weddings</a>
-                </li>
-                <li>
-                  <a>Destinations</a>
-                </li>
-                <li>
-                  <a>Milestones</a>
-                </li>
-                <li>
-                  <a>Coporate</a>
-                </li>
-                <li>
-                  <a>Non-Profit</a>
-                </li>
-              </ul>
+              <a>Contact Us</a>
             </li>
             <li>
-              <a>Solutions</a>
-              <ul className="p-2 z-50">
+              <a>Gallery</a>
+              {/* <ul className="p-2 z-50">
                 <li>
                   <a>Event Management</a>
                 </li>
@@ -95,33 +62,37 @@ const Header = (props: Props) => {
                 <li>
                   <a>Event Strategy</a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
-            <li>
+            {/* <li>
               <a>Hospitality </a>
-            </li>
+            </li> */}
             <li>
               <a>Vendor Submission </a>
             </li>
           </ul>
         </div>
-        <a className="ml-4 normal-case text-xl">
+        <Link href="/" className="ml-4 normal-case text-xl">
           <Image
             src="/logo_4.png"
             alt="logo"
-            width={150}
-            height={150}
+            width={130}
+            height={130}
             // style={{ scale: "150%" }}
             className="  cursor-pointer"
           />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>News</a>
+            <Link href="/about">About Us</Link>
+            {/* <a>About Us</a> */}
           </li>
-          <li tabIndex={0}>
+          <li>
+            <a>Services</a>
+          </li>
+          {/* <li tabIndex={0}>
             <details>
               <summary>Weddings & Events</summary>
               <ul className="p-2 z-50">
@@ -139,59 +110,16 @@ const Header = (props: Props) => {
                 </li>
               </ul>
             </details>
+          </li> */}
+          <li>
+            <a>Make an Inquiry</a>
           </li>
           <li>
-            <a>Catering</a>
+            <a>Contact Us</a>
           </li>
-          <li tabIndex={1}>
-            <details>
-              <summary>Galleries</summary>
-              <ul className="p-2 z-50">
-                <li>
-                  <a>All Galleries</a>
-                </li>
-                <li>
-                  <a>Weddings</a>
-                </li>
-                <li>
-                  <a>Destinations</a>
-                </li>
-                <li>
-                  <a>Milestones</a>
-                </li>
-                <li>
-                  <a>Coporate</a>
-                </li>
-                <li>
-                  <a>Non-Profit</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li tabIndex={2}>
-            <details>
-              <summary>Solutions</summary>
-              <ul className="p-2 z-50">
-                <li>
-                  <a>Event Management</a>
-                </li>
-                <li>
-                  <a>Event Production</a>
-                </li>
-                <li>
-                  <a>Event Technology</a>
-                </li>
-                <li>
-                  <a>Event Creative</a>
-                </li>
-                <li>
-                  <a>Event Strategy</a>
-                </li>
-              </ul>
-            </details>
-          </li>
+
           <li>
-            <a>Hospitality</a>
+            <a>Gallery</a>
           </li>
           <li>
             <a>Vendor Submission</a>

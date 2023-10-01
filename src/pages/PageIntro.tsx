@@ -1,6 +1,6 @@
 import React from "react";
-import Slider from "@/components/Slider";
-import ArrowDown from "@/components/ArrowDown";
+import Slider from "../components/Slider";
+import ArrowDown from "../components/ArrowDown";
 
 type Props = {};
 
