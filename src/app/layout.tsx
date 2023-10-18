@@ -15,11 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en">
       <body className={inter.className}>
-        <Header></Header>
+        <Header/>
         {children}
       </body>
     </html>
   );
 }
+
+
+// data-theme="light"
