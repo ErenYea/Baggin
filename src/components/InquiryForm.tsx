@@ -19,7 +19,7 @@ const Dropdown = ({input,handleChange}:InputFieldProps)=>{
             <label tabIndex={0} className="m-1">Choose Country</label>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full h-36 overflow-y-scroll">
                 {input.options.map((option:any)=>(
-                    <li className='block w-full'><a>{option.name}</a></li>
+                    <li key={option.name} className='block w-full'><a>{option.name}</a></li>
                 ))}
             </ul>
             </div>
