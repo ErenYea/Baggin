@@ -6,9 +6,8 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="navbar bg-transparent relative z-[100] h-[10%] ">
-      <div className="navbar-start">
-        <div className="dropdown">
+    <div className="w-full absolute top-5 px-4 flex justify-between items-center bg-transparent z-[100] h-[10%] ">
+        <div className="hidden">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,15 +81,14 @@ const Header = (props: Props) => {
             className="  cursor-pointer"
           />
         </Link>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 font-semibold text-base">
           <li className="">
             <Link href="/about">About Us</Link>
             {/* <a>About Us</a> */}
           </li>
           <li>
-            <a>Services</a>
+            <Link href="/services">Services</Link>
           </li>
           {/* <li tabIndex={0}>
             <details>
@@ -112,22 +110,19 @@ const Header = (props: Props) => {
             </details>
           </li> */}
           <li>
-          <Link href="/make-an-inquiry">Make an Inquiry</Link>
-          </li>
-          <li>
-            <a>Contact Us</a>
+            <Link href="/contact">Contact Us</Link>
           </li>
 
           <li>
-            <a>Gallery</a>
+            <Link href="/gallery">Gallery</Link>
           </li>
           <li>
-            <a>Vendor Submission</a>
+          <Link href="/vendor-submission">Vendor Submission</Link>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn btn-primary">Contact Us</a>
+        <div>
+        <Link href="/make-an-inquiry" className="btn btn-primary">Make an Inquiry</Link>
+        </div>
       </div>
     </div>
   );

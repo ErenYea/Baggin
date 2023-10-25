@@ -3,7 +3,7 @@ import InquiryForm from "@/components/InquiryForm";
 
 const MakeAnInquiry = () => {
     return ( 
-        <div className="grid grid-cols-8 px-16 my-4 gap-8">
+        <div className="grid grid-cols-8 px-16 mb-4 mt-28 gap-8">
             <div className="col-span-5">
                 <div className="my-8">
                     <h2 className="text-2xl font-semibold">LET&apos;S HELP YOU GET STARTED!</h2>

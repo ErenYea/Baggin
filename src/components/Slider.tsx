@@ -36,7 +36,7 @@ const Slider = (props: Props) => {
           </div>
         </div>
         <div className="flex  flex-col items-center justify-center  h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
+          <div className="flex w-full flex-col items-center justify-center p-4">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
             <div className="ml-4 text-2xl lg:xl:md:text-4xl font-semibold text-white text-center">
               Expert Event Solutions
@@ -66,7 +66,7 @@ const Slider = (props: Props) => {
           </div>
         </div>
         <div className="flex  flex-col items-center justify-center  w-full h-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
+          <div className="flex w-full flex-col items-center justify-center p-4">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
             <div className="ml-4 text-2xl font-semibold text-white lg:xl:md:text-4xl ">
               Nationwide Event Management Services
@@ -93,7 +93,7 @@ const Slider = (props: Props) => {
           </div>
         </div>
         <div className="flex  flex-col items-center justify-center  h-full w-full absolute top-0 mt-4 md:xl:lg:mt-32 right-0  text-white pl-1">
-          <div className="flex w-full flex-col items-center justify-center p-4 bg-gray-700 opacity-60">
+          <div className="flex w-full flex-col items-center justify-center p-4">
             {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
             <div className="ml-4 text-2xl font-semibold text-white lg:xl:md:text-4xl">
               Maximize Your ROI with Endless Event Management
