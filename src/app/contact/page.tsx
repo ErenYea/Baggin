@@ -22,9 +22,9 @@ const Contact = () => {
     return ( 
         <>
         <Intro title='Contact Us' bgImage={contactImg.src}/>
-        <div className='flex justify-evenly flex-wrap gap-8 items-center my-8 pageMiddle'>
+        {/* <div className='flex justify-evenly flex-wrap gap-8 items-center my-8 pageMiddle'>
             {services.map((service)=>(
-                <div className='w-80 shadow-xl shadow-neutral-900 rounded-md bg-neutral-900 py-3 px-4 text-gray-300'>
+                <div key={service.title} className='w-80 shadow-xl shadow-neutral-900 rounded-md bg-neutral-900 py-3 px-4 text-gray-300'>
                     <div className='flex justify-center bg-neutral-800 p-3 w-fit mx-auto rounded-full'>
                         <MiscellaneousServicesOutlinedIcon className='text-4xl'/>
                     </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
             ))}
             
-        </div>
+        </div> */}
         </> 
      );
 }
