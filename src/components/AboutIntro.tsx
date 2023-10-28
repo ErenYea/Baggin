@@ -28,7 +28,7 @@ const AboutIntro = (props: Props) => {
     >
       {/* <Slider /> */}
       <div
-        className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] "
+        className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about "
         style={{
           backgroundImage:
             "url('https://helloendless.com/wp-content/uploads/2022/06/About-Us-Header.jpg')",

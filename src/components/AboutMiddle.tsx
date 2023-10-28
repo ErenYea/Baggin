@@ -21,14 +21,14 @@ const AboutMiddle = (props: Props) => {
       className="flex flex-col items-center justify-center z-20  h-full w-full absolute top-0  my-8    text-white "
     >
       <div className="my-16 w-full sm:lg:md:xl:flex-row flex-col items-center justify-center p-4 ">
-        <div className="sm:md:lg:xl:text-5xl  text-md w-full flex  justify-center font-bold tracking-wider">
+        {/* <div className="sm:md:lg:xl:text-5xl  text-md w-full flex  justify-center font-bold tracking-wider">
           <div className="text-center w-full">WHY ENDLESS EVENTS?</div>
         </div>
-        <div className="w-64 h-1.5 rounded-lg bg-white my-4 text-center mx-auto"></div>
+        <div className="w-64 h-1.5 rounded-lg bg-white my-4 text-center mx-auto"></div> */}
         {/* <div className="w-32 h-1 border bg-green-500 border-green-500 rounded"></div> */}
       </div>
     </motion.div>
-    <div className=" relative -top-24">
+    <div className="relative mt-8 pageMiddle">
     <div className="grid grid-cols-4 gap-8 bg-zinc-950 text-gray-100 rounded-md sm:w-4/5 mx-auto shadow-xl w-full mt-8 p-6">
       <div className="col-span-2">
         <h2 className="text-3xl font-bold leading-10">

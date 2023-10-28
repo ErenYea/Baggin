@@ -6,7 +6,7 @@ type Props = {};
 
 const PageMiddle = (props: Props) => {
   return (
-    <div className="w-full h-full " id="pageMiddle">
+    <div className="w-full h-screen pageMiddle">
       <div className="h-full z-10">
         <div
           className=" about h-full "

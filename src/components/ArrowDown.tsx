@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 type Props = {};
 
 const GotoPageMiddle = () => {
-  document.getElementById("pageMiddle")?.scrollIntoView({
+  document.querySelector(".pageMiddle")?.scrollIntoView({
     behavior: "smooth",
   });
 };
@@ -25,11 +25,11 @@ const ArrowDown = (props: Props) => {
         type: "spring",
         repeat: Infinity,
         duration: 0.8,
-        ease: "linear",
+        // ease: "linear",
       }}
     >
       <ExpandMoreIcon
-        className="w-[100px] bg-transparent md:lg:xl:h-[100px] cursor-pointer h-[50px] mb-2"
+        className="w-[100px] bg-transparent md:lg:xl:h-[70px] cursor-pointer h-[50px] mb-4"
         onClick={GotoPageMiddle}
       />
     </motion.div>
