@@ -1,25 +1,25 @@
 'use client'
-import {useRef} from 'react'
+import {useRef, useState} from 'react'
 import countries from '../data/countries.json'
 
 const InputField = ({input,handleChange}:InputFieldProps)=>{
     return (
         <div className='my-4 mx-auto'>
             <label htmlFor="">{input.label}</label>
-            <input className='block mt-2 w-full h-10 py-2 px-4 rounded-md' type={input.type} name={input.name} onChange={handleChange}/>
+            <input className='block mt-2 w-full h-10 py-2 px-4 rounded-md bg-neutral-800' type={input.type} data-name={input.name} onBlur={handleChange}/>
         </div>
     )
 }
 
-const Dropdown = ({input,handleChange}:InputFieldProps)=>{
+const Dropdown = ({input,handleDropdown}:DropdownFieldProps)=>{
     return (
         <div className=" w-full">
             <label htmlFor="">{input.label}</label>
-            <div className='dropdown w-full bg-base-100 py-2.5 rounded-md mt-2'>
-            <label tabIndex={0} className="m-1">Choose Country</label>
-            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full h-36 overflow-y-scroll">
+            <div className='dropdown w-full py-2.5 rounded-md mt-2 bg-neutral-800'>
+            <label tabIndex={0} className="m-1 w-full px-2 block cursor-pointer">Choose Country</label>
+            <ul tabIndex={0} className="dropdown-content block z-[1] menu p-2 shadow bg-neutral-800 rounded-box w-full h-36 overflow-auto">
                 {input.options.map((option:any)=>(
-                    <li key={option.name} className='block w-full'><a>{option.name}</a></li>
+                    <li key={option.name} className='block w-full' onClick={(e)=>handleDropdown('country',option.name)}><a>{option.name}</a></li>
                 ))}
             </ul>
             </div>
@@ -35,20 +35,32 @@ const inputs = [
 ]
 
 const InquiryForm = () => {
-    const inputFields = useRef({name:'',email:'',contactNumber:'',country:''})
+    const [inputFields,setInputFields] = useState({name:'',email:'',contactNumber:'',country:''})
 
     const handleChange = (e:any)=>{
-        inputFields.current = {...inputFields.current,[e.target.name]:e.target.value}
+        setInputFields(prev=>({...prev,[e.target.dataset.name]:e.target.value}))
     }
+
+    const handleDropdown = (country:string,value:string)=>{
+        // console.log(country,value)
+        setInputFields(prev=>({...prev,country:value}))
+    }
+
+    const handleSubmit = (e:any)=>{
+        e.preventDefault()
+        console.log(inputFields)
+    }
+
+    console.log(inputFields)
     
     return ( 
-        <form className='w-96'>
+        <form className='w-96' onSubmit={handleSubmit}>
             <h3 className='text-2xl text-center uppercase'>Inquire</h3>
             {inputs.map((input)=>{
                 return(
                     <>
                     {input.type === 'dropdown' ?
-                    <Dropdown key={input.name} input={input} handleChange={handleChange}/>
+                    <Dropdown key={input.name} input={input} handleDropdown={handleDropdown}/>
                     :
                     <InputField key={input.name} input={input} handleChange={handleChange}/>
                 }
@@ -72,7 +84,18 @@ type InputFieldProps = {
     options?:any
     // value:string
     }
-    handleChange:(e:any)=>void
+    handleChange:(e:any)=>void,
+}
+
+type DropdownFieldProps = {
+    input:{
+    label:string,
+    type:string,
+    name:string,
+    options?:any
+    // value:string
+    }
+    handleDropdown:(country:string,value:string)=>void
 }
 
 type InputProps = {

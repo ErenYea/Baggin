@@ -7,7 +7,7 @@ const MakeAnInquiry = () => {
     return (
         <>
         <Intro title='Make An Inquiry' bgImage={servicesImg.src}/>
-        <div className="grid grid-cols-8 px-16 mb-4 mt-20 gap-8 pageMiddle">
+        <div className="grid grid-cols-8 px-16 my-20 gap-8 pageMiddle">
             <div className="col-span-5">
                 <div className="my-8">
                     <h2 className="text-2xl font-semibold">LET&apos;S HELP YOU GET STARTED!</h2>

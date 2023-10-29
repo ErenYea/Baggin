@@ -82,7 +82,7 @@ const Header = (props: Props) => {
           />
         </Link>
       <div className="hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 font-semibold text-base">
+        <ul className="menu menu-horizontal px-1 font-semibold text-base text-white">
           <li className="">
             <Link href="/about">About Us</Link>
             {/* <a>About Us</a> */}
