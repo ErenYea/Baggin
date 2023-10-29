@@ -17,10 +17,10 @@ const PageMiddleDiv = (props: Props) => (
       opacity: 1,
     }}
     transition={{ duration: 2 }}
-    className="flex  flex-col items-center justify-center z-20  h-full w-full absolute top-[95%] sm:md:xl:lg:top-[85%] mt-4 md:mt-20   text-white "
+    className="flex  flex-col items-center justify-center relative z-20  h-full w-full mt-4 md:mt-12   text-white "
   >
-    <div className="w-full px-4 py-2 flex ">
-      <div className="text-base md:w-1/2 w-full tracking-wider px-4">
+    <div className="w-full px-4 py-2 flex lg:flex-row flex-col lg:gap-2 gap-5">
+      <div className="text-base lg:w-1/2 w-full tracking-wider px-4">
           {/* <div className="md:xl:lg:sm:w-2/5 w-full">WHY ENDLESS EVENTS?</div> */}
           <h3 className="sm:md:lg:xl:text-md text-justify w-full mx-auto text-lg leading-8">
             Our team of experienced professionals collaborates with our
@@ -40,11 +40,11 @@ const PageMiddleDiv = (props: Props) => (
             prove measurable ROI on their events year after year.
           </h3>
         </div>
-      <div className="flex flex-col md:w-1/2">
+      <div className="flex flex-col lg:w-1/2 w-full">
         <div className=" w-full text-center sm:md:lg:xl:text-md mx-auto text-lg">
           Endless Events specializes in:
         </div>
-        <div className="flex flex-col mt-8 text-sm w-80 sm:md:lg:xl:text-md justify-center items-center mx-auto">
+        <div className="flex flex-col mt-8 text-sm w-64 md:w-80 sm:md:lg:xl:text-md justify-center items-center mx-auto">
           <motion.div
             whileHover={{
               scale: [null, 1.3, 1.2],

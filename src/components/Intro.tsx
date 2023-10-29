@@ -27,8 +27,8 @@ const Intro = ({title,bgImage}:IntroProps) => {
     >
         <div className="h-screen w-full flex flex-col justify-center items-center bg-cover bg-center backdrop-brightness-50" style={{backgroundImage:`url(${bgImage})`}}>
             <div className='w-full h-full absolute top-0 left-0 z-[1] backdrop-container'></div>
-            <h2 className="text-5xl text-md w-full flex justify-center font-bold tracking-wider relative z-[2] text-white">{title}</h2>
-            <div className="w-56 h-1.5 rounded-lg bg-white my-4 text-center mx-auto z-[2]"></div>
+            <h2 className="text-3xl sm:text-5xl w-full flex justify-center font-bold tracking-wider relative z-[2] text-white">{title}</h2>
+            <div className="w-36 sm:w-56 h-1.5 rounded-lg bg-white my-4 text-center mx-auto z-[2]"></div>
         </div>
         <div className="flex w-full justify-center md:lg:xl:h-[70px] bg-transparent absolute bottom-4 z-[100]  text-white">
         <ArrowDown />
