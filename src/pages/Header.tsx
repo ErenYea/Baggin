@@ -8,17 +8,17 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <div className="w-full absolute top-5 px-4 flex lg:justify-between justify-start items-center bg-transparent z-[100] h-[10%] ">
-        <MobileNav/>
-        <Link href="/" className="ml-4 normal-case text-xl">
-          <Image
-            src="/logo_4.png"
-            alt="logo"
-            width={130}
-            height={130}
-            // style={{ scale: "150%" }}
-            className="  cursor-pointer"
-          />
-        </Link>
+      <MobileNav />
+      <Link href="/" className="ml-4 normal-case text-xl">
+        <Image
+          src="/logo_7.png"
+          alt="logo"
+          width={200}
+          height={200}
+          // style={{ scale: "150%" }}
+          className="  cursor-pointer"
+        />
+      </Link>
       <div className="hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-base text-white">
           <li className="">
@@ -55,11 +55,13 @@ const Header = (props: Props) => {
             <Link href="/gallery">Gallery</Link>
           </li>
           <li>
-          <Link href="/vendor-submission">Vendor Submission</Link>
+            <Link href="/vendor-submission">Vendor Submission</Link>
           </li>
         </ul>
         <div>
-        <Link href="/make-an-inquiry" className="btn btn-primary">Make an Inquiry</Link>
+          <Link href="/make-an-inquiry" className="btn btn-primary">
+            Make an Inquiry
+          </Link>
         </div>
       </div>
     </div>
