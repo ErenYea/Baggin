@@ -124,21 +124,13 @@ const InquiryForm = () => {
       <h3 className="text-2xl text-center uppercase text-primary">Inquire</h3>
       {inputs.map((input) => {
         return (
-          <>
+          <div key={input.name}>
             {input.type === "dropdown" ? (
-              <Dropdown
-                key={input.name}
-                input={input}
-                handleDropdown={handleDropdown}
-              />
+              <Dropdown input={input} handleDropdown={handleDropdown} />
             ) : (
-              <InputField
-                key={input.name}
-                input={input}
-                handleChange={handleChange}
-              />
+              <InputField input={input} handleChange={handleChange} />
             )}
-          </>
+          </div>
         );
       })}
       <button className="submit-btn">Submit</button>

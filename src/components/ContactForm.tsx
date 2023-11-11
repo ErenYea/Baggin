@@ -67,21 +67,13 @@ const ContactForm = () => {
       </h3>
       {inputs.map((input) => {
         return (
-          <>
+          <div key={input.name}>
             {input.type === "textarea" ? (
-              <TextAreaField
-                key={input.name}
-                input={input}
-                handleChange={handleChange}
-              />
+              <TextAreaField input={input} handleChange={handleChange} />
             ) : (
-              <InputField
-                key={input.name}
-                input={input}
-                handleChange={handleChange}
-              />
+              <InputField input={input} handleChange={handleChange} />
             )}
-          </>
+          </div>
         );
       })}
       <button className="submit-btn">Submit</button>
