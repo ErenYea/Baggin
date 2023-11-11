@@ -21,28 +21,28 @@ const PageMiddleDiv = (props: Props) => (
   >
     <div className="w-full px-4 py-2 flex lg:flex-row flex-col lg:gap-2 gap-5">
       <div className="text-base lg:w-1/2 w-full tracking-wider px-4">
-          {/* <div className="md:xl:lg:sm:w-2/5 w-full">WHY ENDLESS EVENTS?</div> */}
-          <h3 className="sm:md:lg:xl:text-md text-justify w-full mx-auto text-lg leading-8">
-            Our team of experienced professionals collaborates with our
-            customers to address their needs, identify areas of opportunity, and
-            elevate their event experience. Our goal is to help our customers
-            evolve their events by combining our team’s experience with
-            cutting-edge event technology to create an unforgettable event
-            experience for all stakeholders and attendees.
-          </h3>
-          <h3 className="text-justify text-lg mt-4 leading-8">
-            Endless Events is proud to rank at the top of the industry in
-            overall customer satisfaction and continually score at the top of
-            our industry, according to G2.com. Endless is proud to have
-            achieved a 90% customer retention rate, reflecting our dedication
-            to establishing and maintaining long-term relationships. Endless
-            showcases effective event management by ensuring our customers
-            prove measurable ROI on their events year after year.
-          </h3>
-        </div>
+        {/* <div className="md:xl:lg:sm:w-2/5 w-full">WHY ENDLESS EVENTS?</div> */}
+        <h3 className="sm:md:lg:xl:text-md text-justify w-full mx-auto text-lg leading-8">
+          Our team of experienced professionals collaborates with our customers
+          to address their needs, identify areas of opportunity, and elevate
+          their event experience. Our goal is to help our customers evolve their
+          events by combining our team’s experience with cutting-edge event
+          technology to create an unforgettable event experience for all
+          stakeholders and attendees.
+        </h3>
+        <h3 className="text-justify text-lg mt-4 leading-8">
+          Baggins is proud to rank at the top of the industry in overall
+          customer satisfaction and continually score at the top of our
+          industry. Baggins is proud to have achieved a 90% customer retention
+          rate, reflecting our dedication to establishing and maintaining
+          long-term relationships. Baggins showcases effective event management
+          by ensuring our customers prove measurable ROI on their events year
+          after year.
+        </h3>
+      </div>
       <div className="flex flex-col lg:w-1/2 w-full">
         <div className=" w-full text-center sm:md:lg:xl:text-md mx-auto text-lg">
-          Endless Events specializes in:
+          Baggins specializes in:
         </div>
         <div className="flex flex-col mt-8 text-sm w-64 md:w-80 sm:md:lg:xl:text-md justify-center items-center mx-auto">
           <motion.div

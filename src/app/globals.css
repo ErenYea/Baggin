@@ -94,3 +94,19 @@
     rgba(0, 0, 0, 0.6)
   );
 }
+
+.text-primary {
+  @apply text-amber-200;
+}
+
+.btn-ghost {
+  @apply border border-white rounded py-0 px-2;
+}
+
+.btn-primary {
+  @apply w-full text-base bg-amber-300 text-slate-900 font-semibold rounded border-none py-1 capitalize duration-200 hover:bg-amber-400;
+}
+
+.submit-btn {
+  @apply w-full text-lg bg-amber-300 text-slate-900 font-semibold rounded border-none mt-4 py-2 duration-200 hover:bg-amber-400;
+}

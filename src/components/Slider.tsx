@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import slider1 from "../../public/slider/slider-1.jpg";
+import slider2 from "../../public/slider/slider-2.jpg";
+import slider3 from "../../public/slider/slider-3.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,7 +21,7 @@ const Slider = (props: Props) => {
       className="mySwiper h-full"
       loop={true}
       autoplay={{
-        delay: 2500,
+        delay: 3500,
         disableOnInteraction: false,
       }}
     >
@@ -26,10 +29,9 @@ const Slider = (props: Props) => {
         <div className="h-full z-10">
           {/* <Slider /> */}
           <div
-            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] "
+            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] bg-cover bg-bottom"
             style={{
-              backgroundImage:
-                "url('https://helloendless.com/wp-content/uploads/2021/12/Background.jpg')",
+              backgroundImage: `url(${slider1.src})`,
             }}
           >
             {/* <div className="about-divider"></div> */}
@@ -56,10 +58,9 @@ const Slider = (props: Props) => {
         <div className="h-full z-10">
           {/* <Slider /> */}
           <div
-            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] "
+            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] bg-cover bg-bottom"
             style={{
-              backgroundImage:
-                "url('https://helloendless.com/wp-content/uploads/2021/12/IMG_20190604_082306.jpg')",
+              backgroundImage: `url(${slider2.src})`,
             }}
           >
             {/* <div className="about-divider"></div> */}
@@ -83,10 +84,9 @@ const Slider = (props: Props) => {
         <div className="h-full z-10">
           {/* <Slider /> */}
           <div
-            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] "
+            className="pt-[54px] pr-[0px] pl-[0px] pb-[0px] about h-[200px] bg-cover bg-bottom"
             style={{
-              backgroundImage:
-                "url('https://helloendless.com/wp-content/uploads/2022/04/oscars-2022-scaled.jpg')",
+              backgroundImage: `url(${slider3.src})`,
             }}
           >
             {/* <div className="about-divider"></div> */}

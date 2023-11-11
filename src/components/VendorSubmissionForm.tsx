@@ -5,9 +5,11 @@ import countries from "../data/countries.json";
 const InputField = ({ input, handleChange }: InputFieldProps) => {
   return (
     <div className="my-4 mx-auto text-primary">
-      <label htmlFor="">{input.label}</label>
+      <label htmlFor="" className="font-medium">
+        {input.label}
+      </label>
       <input
-        className="block mt-2 w-full h-10 py-2 px-4 rounded-md bg-neutral-800"
+        className="block mt-2 w-full h-10 py-2 px-4 rounded-md bg-neutral-800 outline-none focus:bg-neutral-700"
         type={input.type}
         data-name={input.name}
         onBlur={handleChange}
@@ -19,13 +21,12 @@ const InputField = ({ input, handleChange }: InputFieldProps) => {
 const Dropdown = ({ input, handleDropdown }: DropdownFieldProps) => {
   const [currentOption, setCurrentOption] = useState("");
   return (
-    <div className="mt-4 w-full text-primary">
-      <label htmlFor="">{input.label}</label>
+    <div className="text-primary w-full my-4 mx-auto">
+      <label htmlFor="" className="font-medium">
+        {input.label}
+      </label>
       <div className="dropdown w-full py-2.5 rounded-md mt-2 bg-neutral-800">
-        <label
-          tabIndex={0}
-          className="m-1 w-full px-2 block cursor-pointer text-primary"
-        >
+        <label tabIndex={0} className="m-1 w-full px-2 block cursor-pointer">
           {currentOption ? currentOption : "Choose Option"}
         </label>
         <ul
@@ -92,7 +93,7 @@ const inputs = [
 // Add dashboard
 // Vendor submission form
 
-const InquiryForm = () => {
+const VendorSubmissionForm = () => {
   const [inputFields, setInputFields] = useState({
     name: "",
     email: "",
@@ -121,7 +122,9 @@ const InquiryForm = () => {
 
   return (
     <form className="w-full sm:w-80 lg:w-96" onSubmit={handleSubmit}>
-      <h3 className="text-2xl text-center uppercase text-primary">Inquire</h3>
+      <h3 className="text-2xl text-center uppercase text-primary font-semibold">
+        Vendor Submission
+      </h3>
       {inputs.map((input) => {
         return (
           <>
@@ -146,7 +149,7 @@ const InquiryForm = () => {
   );
 };
 
-export default InquiryForm;
+export default VendorSubmissionForm;
 
 type InputFieldProps = {
   input: {

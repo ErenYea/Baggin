@@ -19,16 +19,17 @@ const Header = (props: Props) => {
           className="  cursor-pointer"
         />
       </Link>
-      <div className="hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 font-semibold text-base text-white">
-          <li className="">
-            <Link href="/about">About Us</Link>
-            {/* <a>About Us</a> */}
-          </li>
-          <li>
-            <Link href="/services">Services</Link>
-          </li>
-          {/* <li tabIndex={0}>
+      <div className="hidden lg:flex items-center">
+        <div>
+          <ul className="menu menu-horizontal px-1 font-semibold text-base text-white">
+            <li className="">
+              <Link href="/about">About Us</Link>
+              {/* <a>About Us</a> */}
+            </li>
+            <li>
+              <Link href="/services">Services</Link>
+            </li>
+            {/* <li tabIndex={0}>
             <details>
               <summary>Weddings & Events</summary>
               <ul className="p-2 z-50">
@@ -47,17 +48,18 @@ const Header = (props: Props) => {
               </ul>
             </details>
           </li> */}
-          <li>
-            <Link href="/contact">Contact Us</Link>
-          </li>
+            <li>
+              <Link href="/contact">Contact Us</Link>
+            </li>
 
-          <li>
-            <Link href="/gallery">Gallery</Link>
-          </li>
-          <li>
-            <Link href="/vendor-submission">Vendor Submission</Link>
-          </li>
-        </ul>
+            <li>
+              <Link href="/gallery">Gallery</Link>
+            </li>
+            <li>
+              <Link href="/vendor-submission">Vendor Submission</Link>
+            </li>
+          </ul>
+        </div>
         <div>
           <Link href="/make-an-inquiry" className="btn btn-primary">
             Make an Inquiry

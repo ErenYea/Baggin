@@ -27,7 +27,7 @@ const Services = () => {
         {services.map((service) => (
           <div
             key={service.title}
-            className="w-80 shadow-xl shadow-neutral-900 rounded-md bg-neutral-900 py-3 px-4 text-gray-300"
+            className="w-80 shadow-xl shadow-neutral-900 rounded-md bg-neutral-900 py-3 px-4 text-primary"
           >
             <div className="flex justify-center p-3 w-fit mx-auto rounded-full">
               {/* <MiscellaneousServicesOutlinedIcon className='text-4xl'/> */}
