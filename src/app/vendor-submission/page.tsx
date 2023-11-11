@@ -13,8 +13,8 @@ const VendorSubmission = () => {
               How can we help you!
             </h2>
             <p className="mt-2 text-base sm:text-lg text-primary">
-              Whether you're planning a corporate gathering, a wedding, or a
-              community event, we're here to alleviate the stress of
+              Whether you&apos;re planning a corporate gathering, a wedding, or
+              a community event, we&apos;re here to alleviate the stress of
               coordination and elevate your experience. Our dedicated team of
               experienced event planners is committed to understanding your
               unique requirements, ensuring that every detail aligns with your
@@ -22,8 +22,8 @@ const VendorSubmission = () => {
               comprehensive range of services, including meticulous planning,
               creative design, logistical coordination, and post-event analysis.
               Let us be your partners in crafting moments that leave lasting
-              impressions. Your event is a reflection of your story, and we're
-              here to ensure it's told with perfection.
+              impressions. Your event is a reflection of your story, and
+              we&apos;re here to ensure it&apos;s told with perfection.
             </p>
           </div>
           <div className="my-8">
