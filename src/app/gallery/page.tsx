@@ -29,7 +29,7 @@ const Gallery = () => {
         </h3>
         <div className="flex justify-evenly gap-4 mt-8 flex-wrap">
           {images.map((image, i) => (
-            <div className="w-80 h-56">
+            <div key={image.img} className="w-80 h-56">
               <Image
                 src={image.img}
                 alt={`pic${i + 1}`}
