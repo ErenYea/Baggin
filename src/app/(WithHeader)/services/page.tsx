@@ -1,5 +1,5 @@
 import Intro from "@/components/Intro";
-import servicesImg from "../../../public/services.jpg";
+import servicesImg from "../../../../public/services.jpg";
 import MiscellaneousServicesOutlinedIcon from "@mui/icons-material/MiscellaneousServicesOutlined";
 import Image from "next/image";
 

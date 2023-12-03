@@ -1,5 +1,5 @@
 import Intro from "@/components/Intro";
-import vendorImg from "../../../public/vendor-submission.jpg";
+import vendorImg from "../../../../public/vendor-submission.jpg";
 import VendorSubmissionForm from "@/components/VendorSubmissionForm";
 
 const VendorSubmission = () => {

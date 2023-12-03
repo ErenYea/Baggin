@@ -1,6 +1,6 @@
 import InquiryForm from "@/components/InquiryForm";
 import Intro from "@/components/Intro";
-import servicesImg from "../../../public/make-an-inquiry.jpg";
+import servicesImg from "../../../../public/make-an-inquiry.jpg";
 
 const MakeAnInquiry = () => {
   return (

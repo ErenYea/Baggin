@@ -29,29 +29,9 @@ const Header = (props: Props) => {
             <li>
               <Link href="/services">Services</Link>
             </li>
-            {/* <li tabIndex={0}>
-            <details>
-              <summary>Weddings & Events</summary>
-              <ul className="p-2 z-50">
-                <li>
-                  <a>How we work</a>
-                </li>
-                <li>
-                  <a>Favorite Destinations</a>
-                </li>
-                <li>
-                  <a>Testimonials</a>
-                </li>
-                <li>
-                  <a>Submit An Inquiry</a>
-                </li>
-              </ul>
-            </details>
-          </li> */}
             <li>
               <Link href="/contact">Contact Us</Link>
             </li>
-
             <li>
               <Link href="/gallery">Gallery</Link>
             </li>

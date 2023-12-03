@@ -1,5 +1,5 @@
 import Intro from "@/components/Intro";
-import contactImg from "../../../public/contact.jpg";
+import contactImg from "../../../../public/contact.jpg";
 import ContactForm from "@/components/ContactForm";
 import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
